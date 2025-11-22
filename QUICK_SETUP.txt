@@ -1,0 +1,37 @@
+================================================================================
+QUICK SETUP - GitHub Actions for Daily Predictions
+================================================================================
+
+Your GitHub Actions workflow has been created and pushed!
+
+NEXT STEPS (5 minutes):
+
+1. Open this URL in your browser:
+   https://github.com/benclark-personal/football-predictor/settings/secrets/actions
+
+2. Click "New repository secret" and add these 3 secrets:
+
+   SECRET 1:
+   Name:  FOOTBALL_DATA_API_KEY
+   Value: 28eb85e7c65845f084eee774037e4344
+
+   SECRET 2:
+   Name:  SUPABASE_URL
+   Value: https://haeocsilkykqrukjzyzw.supabase.co
+
+   SECRET 3:
+   Name:  SUPABASE_KEY
+   Value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhZW9jc2lsa3lrcXJ1a2p6eXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4MTAzNDksImV4cCI6MjA3OTM4NjM0OX0.CjD_M0PMeJazOKOf2vCk-U6D5GL-O_d-oFf8llmKTm0
+
+3. Test it works:
+   https://github.com/benclark-personal/football-predictor/actions
+   → Click "Daily Football Predictions"
+   → Click "Run workflow" → "Run workflow"
+
+4. Watch the logs to see it running!
+
+================================================================================
+DONE! Predictions will now run automatically every day at 06:00 UTC
+================================================================================
+
+See GITHUB_SECRETS_SETUP.md for detailed instructions.
