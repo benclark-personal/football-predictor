@@ -190,7 +190,7 @@ class FootballDataPredictor:
             params['competitions'] = competition_id
 
         try:
-            time.sleep(0.1)  # Rate limiting (10 req/min = 6 seconds between, but we're conservative)
+            time.sleep(7)  # Rate limiting: 10 req/min = 6s minimum, using 7s to be safe
             response = self.session.get(url, headers=self.headers, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
